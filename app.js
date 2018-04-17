@@ -8,6 +8,6 @@ app.use(express.static('./public'));
 
 todoController(app);
 
-http.listen(process.env.PORT || 3000, function(){
-  console.log('listening on', http.address().port);
+app.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', app.address().port);
 });
