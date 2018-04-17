@@ -2,8 +2,8 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "my todo list ",
-  "main": "app.js",
-  "start": "node app.js",
+  "main": "web.js",
+  "start": "node web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
