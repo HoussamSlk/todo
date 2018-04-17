@@ -1,7 +1,7 @@
 var express = require('express');
 var todoController = require('./controllers/todoController');
 var app = express();
-var port = process.env.PORT || 3000;
+var port = Number(process.env.PORT || 3000);
 app.set('view engine', 'ejs');
 
 app.use(express.static('./public'));
